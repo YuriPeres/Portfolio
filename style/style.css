@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Fleur+De+Leah&family=Lovers+Quarrel&display=swap');
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+    font-family: Allura, "Fleur De Leah", cursive;
+    font-size: 1.08em;
+    font-weight: lighter;
+}
+
+body {
+    background-image: url("../img/Background_Porftolio_2.webp");
+    background-size: cover; /* Ajusta a imagem para cobrir toda a tela */
+    background-position: center; /* Centraliza a imagem */
+    background-repeat: no-repeat; /* Evita que a imagem se repita */
+    height: 100vh; /* Garante que o fundo ocupe a tela inteira */
+    margin: 0; /* Remove margens padrão */
+}
+
+.container {
+    border: 1px solid #444400;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #25150577;
+    color: navajowhite;
+    padding: 10px 0;
+    text-align: center;
+    width: 100%;
+    height: 15%;
+}
+
+.header h1 {
+    font-family: Allura, "Fleur De Leah", "Lovers Quarrel", cursive;
+    font-weight: lighter;
+    font-size: 3.6em;
+    width: 66%;
+    padding: auto;
+}
+
+.menu {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    background-color: #703c0881;
+    padding: 10px 0;
+    text-align: center;
+    width: 66%;
+    height: 5%;
+}
+
+.menu * {
+    overflow: unset;
+}
+
+.menu ul {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+    width: 100%;
+}
+
+.menu ul li a {
+    position: relative;
+    text-decoration: none;
+    color: #ccbd13;
+    transition: text-shadow 0.8s ease-in-out;
+}
+
+.menu ul li a:hover {
+    text-shadow: 0 0 5px #ccbd13,
+                 0 0 10px #13cc7c9e;
+}
+
+.content {
+    color: black;
+    background-color: rgba(255, 228, 196, 0.427); /* #31303084; */
+    padding: 20px;
+    width: 66%;
+    height: 74%;
+    border-radius: 2px;
+    box-shadow: 30px -5px 45px #313030b0,
+                -30px 5px 45px #313030b0;
+             
+}
+
+.content::before {
+    content: "";
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(circle, transparent 60%, #313030b0 80%);
+    z-index: 1;
+    border-radius: 10px; /* Mantém a suavidade */
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #2515058e;
+    color: #fff;
+    padding: 0.3rem 0 0 0;
+    width: 66%;
+    height: 6%;
+}
