@@ -8,8 +8,9 @@ import Projects from './pages/Projects.jsx'
 function App() {
   return (
     <Router>
-      <div className="overflow-x-hidden flex flex-col items-center w-full min-w-80 min-h-screen max-h-screen">
+      <div className="overflow-x-hidden flex flex-col items-center w-full min-w-80 min-h-screen h-screen p-0 m-0">
         <div className='absolute w-screen min-w-80 h-screen inset-0 shadow-[inset_0_0_120px_50px_rgba(0,0,0,1)] pointer-events-none' />
+
         <Header />
 
         <main role="main" id='main' className="flex-grow w-3/5 min-w-80 bg-zinc-950/90 backdrop-blur-md rounded-2xl shadow-lg">
