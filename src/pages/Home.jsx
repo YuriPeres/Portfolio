@@ -1,17 +1,3 @@
-// function Home() {
-//   var homeText = 'Olá, tudo bem?\nSeja bem-vindo(a) ao meu portfólio. Me chamo Yuri Peres, sou graduado em Análise e Desenvolvimento de Sistemas e tenho experiência prática com desenvolvimento web fullstack, além de projetos pessoais que exploram áreas como automação e criação de jogos.\nAqui você encontrará uma seleção dos meus trabalhos — projetos nos quais apliquei e testei ideias com as ferramentas que venho estudando. A aba “Projetos” apresenta esses desenvolvimentos de forma filtrável e organizada.\nCaso queira saber um pouco mais sobre mim, minhas preferências de trabalho e como entrar em contato, fique à vontade para visitar a aba “Sobre”.\nO código deste portfólio também está disponível no meu GitHub.';
-//   var tecnologies = 'aqui vai ter uma lista';
-//     return (
-//       <section className="grid">
-//         <h1 className="text-3xl font-bold mb-4"> Portfólio de Yuri Peres</h1>
-//         <p>{homeText}</p>
-//         <p>{tecnologies}</p>
-//       </section>
-//     )
-//   }
-
-//   export default Home
-
 function Home() {
   const homeText = 'Olá, tudo bem?\nSeja bem-vindo(a) ao meu portfólio. Me chamo Yuri Peres, sou graduado em Análise e Desenvolvimento de Sistemas e tenho experiência prática com desenvolvimento web fullstack, além de projetos pessoais que exploram áreas como automação e criação de jogos.\nAqui você encontrará uma seleção dos meus trabalhos — projetos nos quais apliquei e testei ideias com as ferramentas que venho estudando. A aba "Projetos" apresenta esses desenvolvimentos de forma filtrável e organizada.\nCaso queira saber um pouco mais sobre mim, minhas preferências de trabalho e como entrar em contato, fique à vontade para visitar a aba "Sobre".\nO código deste portfólio também está disponível no meu GitHub.';
 

@@ -1,37 +1,18 @@
 export const projects = [
     {
-        nome: "Receitas Bacanas",
-        thumbnail: "/img/receitas.png",
-        descricao: "CRUD de receitas culinárias feito com Java, JSP e PostgreSQL.",
-        link: "https://github.com/seuusuario/receitas-bacanas",
-    },
-    {
-        nome: "Meu Portfólio",
-        thumbnail: "/img/portfolio.png",
-        descricao: "Portfólio pessoal desenvolvido com React, Vite e Tailwind CSS.",
+        nome: "Gerador de Palavra",
+        thumbnail: "https://raw.githubusercontent.com/YuriPeres/word_generator/main/style/img/thumbnail.png",
+        descricao: "Gere palavras aleatórias, anagramas personalizados e combinações únicas com critérios específicos.",
+        linkGithub: "https://github.com/YuriPeres/word_generator",
+        linkDeploy: "https://word-generator-yp.netlify.app/",
+        tags: ["JavaScript", "Bootstrap", "HTML", "CSS", "WEB"],
     },
     {
         nome: "Gerador de Palavra",
-        thumbnail: "/img/portfolio.png",
-        descricao: "Portfólio pessoal desenvolvido com React, Vite e Tailwind CSS.",
-        link: "https://github.com/YuriPeres/word_generator",
+        thumbnail: "https://raw.githubusercontent.com/YuriPeres/word_generator/main/style/img/thumbnail.png",
+        descricao: "Gere palavras aleatórias, anagramas personalizados e combinações únicas com critérios específicos.",
+        linkGithub: "https://github.com/YuriPeres/word_generator",
+        linkDeploy: "https://word-generator-yp.netlify.app/",
+        tags: ["JavaScript", "Bootstrap", "HTML", "CSS", "WEB"],
     },
-{
-        nome: "Receitas Bacanas",
-        thumbnail: "/img/receitas.png",
-        descricao: "CRUD de receitas culinárias feito com Java, JSP e PostgreSQL.",
-        link: "https://github.com/seuusuario/receitas-bacanas",
-    },
-    {
-        nome: "Meu Portfólio",
-        thumbnail: "/img/portfolio.png",
-        descricao: "Portfólio pessoal desenvolvido com React, Vite e Tailwind CSS.",
-    },
-    {
-        nome: "Gerador de Palavra",
-        thumbnail: "/img/portfolio.png",
-        descricao: "Portfólio pessoal desenvolvido com React, Vite e Tailwind CSS.",
-        link: "https://github.com/YuriPeres/word_generator",
-    },
-
 ];

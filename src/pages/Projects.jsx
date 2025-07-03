@@ -7,12 +7,6 @@ function Projects() {
       {projects.map((proj, index) => (
         <ProjectCard key={index} {...proj} />
       ))}
-      {projects.map((proj, index) => (
-        <ProjectCard key={index} {...proj} />
-      ))}
-      {projects.map((proj, index) => (
-        <ProjectCard key={index} {...proj} />
-      ))}
     </section>
     )
   }
