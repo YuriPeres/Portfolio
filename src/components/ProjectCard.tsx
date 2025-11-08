@@ -19,7 +19,7 @@ export function ProjectCard({ nome, thumbnail, descricao, tags, linkGithub, link
         {tags.map((tag) => (
           <span
             key={tag}
-            className="bg-[#e3fd88]/50 text-gray-800 px-2 py-1 rounded-full text-xs font-semibold"
+            className="bg-[#e3fd88]/50 text-gray-800 px-2 py-1 rounded-lg text-xs font-semibold"
           >
             {tag}
           </span>

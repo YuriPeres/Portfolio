@@ -9,7 +9,7 @@ function App() {
   return (
     <Router>
       <div className="overflow-x-hidden flex flex-col items-center w-full min-w-80 min-h-screen h-screen p-0 m-0">
-        <div className='absolute w-screen min-w-80 h-screen inset-0 shadow-[inset_0_0_120px_50px_rgba(0,0,0,1)] pointer-events-none' />
+        <div className='absolute w-screen min-w-80 h-screen inset-0 shadow-[inset_0_0_120px_50px_rgba(0,0,0,0.8)] pointer-events-none'></div>
 
         <Header />
 
