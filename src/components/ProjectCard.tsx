@@ -31,12 +31,12 @@ export function ProjectCard({ nome, thumbnail, descricao, tags, linkGithub, link
           <h3 className="text-xl font-bold my-2 mx-auto p-0">Ver Projeto:</h3>
           <div className="flex justify-center gap-4 mt-1 mx-1 font-bold">
             {linkGithub && (
-              <a href={linkGithub} target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline">
+              <a href={linkGithub} target="_blank" rel="noopener noreferrer" className="text-blue-500 px-1 border-b-[1px] rounded-xl border-transparent hover:border-zinc-700/40">
                 💻 Código
               </a>
             )}
             {linkDeploy && (
-              <a href={linkDeploy} target="_blank" rel="noopener noreferrer" className="text-green-600 hover:underline">
+              <a href={linkDeploy} target="_blank" rel="noopener noreferrer" className="text-green-600 px-1 border-b-[1px] rounded-xl border-transparent hover:border-zinc-700/40">
                 🌐 Produção
               </a>
             )}
